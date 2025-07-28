@@ -46,20 +46,19 @@ The **Food Delivery Platform** is a **multi-agent system** application that simu
 ## 📂 Project Structure (Overview)
 
 ```
-food-delivery-app/
-├── src/
-│   └── fooddelivery/
-│       ├── agents/
-│       │   ├── CustomerAgent.java
-│       │   ├── DeliveryAgent.java
-│       │   └── RestaurantAgent.java
-│       ├── behaviours/
-│       │   └── [Agent Behaviours Here]
-│       └── gui/
-│           └── FoodDeliveryGUI.java
-├── lib/ (JADE libraries)
-├── README.md
-└── run.sh (Optional JADE launcher script)
+fooddelivery/
+├── Containers/
+│   └── MainContainer.java
+├── Agents/
+│   ├── CustomerAgent.java
+│   ├── DeliveryAgent.java
+│   └── RestaurantAgent.java
+├── Behaviors/
+│   ├── OrderRequestBehavior.java
+│   ├── ProposalHandlingBehavior.java
+│   └── RestaurantProposalBehavior.java
+├── Views/
+│   └── OrderGUI.java
 ```
 
 ---
